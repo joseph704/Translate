@@ -16,6 +16,8 @@
 		044996E928745F3300456632 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 044996E828745F3300456632 /* SnapKit */; };
 		044996EC2874629B00456632 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044996EB2874629B00456632 /* TranslateViewController.swift */; };
 		044996EE2874660A00456632 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044996ED2874660A00456632 /* UIColor+.swift */; };
+		048153F4287D8EF000DE4D55 /* SourceTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048153F3287D8EF000DE4D55 /* SourceTextViewController.swift */; };
+		048153F7287D9B9D00DE4D55 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048153F6287D9B9D00DE4D55 /* Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		044996DE28745F0000456632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044996EB2874629B00456632 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		044996ED2874660A00456632 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		048153F3287D8EF000DE4D55 /* SourceTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTextViewController.swift; sourceTree = "<group>"; };
+		048153F6287D9B9D00DE4D55 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				044996D928745F0000456632 /* Assets.xcassets */,
 				044996DB28745F0000456632 /* LaunchScreen.storyboard */,
 				044996DE28745F0000456632 /* Info.plist */,
+				048153F6287D9B9D00DE4D55 /* Language.swift */,
 			);
 			path = Translate;
 			sourceTree = "<group>";
@@ -77,9 +82,18 @@
 			isa = PBXGroup;
 			children = (
 				044996D428745EFE00456632 /* TabBarController.swift */,
-				044996EB2874629B00456632 /* TranslateViewController.swift */,
+				048153F5287D8EF500DE4D55 /* Translate */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		048153F5287D8EF500DE4D55 /* Translate */ = {
+			isa = PBXGroup;
+			children = (
+				044996EB2874629B00456632 /* TranslateViewController.swift */,
+				048153F3287D8EF000DE4D55 /* SourceTextViewController.swift */,
+			);
+			path = Translate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +176,8 @@
 			files = (
 				044996D528745EFE00456632 /* TabBarController.swift in Sources */,
 				044996EC2874629B00456632 /* TranslateViewController.swift in Sources */,
+				048153F4287D8EF000DE4D55 /* SourceTextViewController.swift in Sources */,
+				048153F7287D9B9D00DE4D55 /* Language.swift in Sources */,
 				044996D128745EFE00456632 /* AppDelegate.swift in Sources */,
 				044996D328745EFE00456632 /* SceneDelegate.swift in Sources */,
 				044996EE2874660A00456632 /* UIColor+.swift in Sources */,
