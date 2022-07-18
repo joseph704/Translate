@@ -18,6 +18,12 @@
 		044996EE2874660A00456632 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044996ED2874660A00456632 /* UIColor+.swift */; };
 		048153F4287D8EF000DE4D55 /* SourceTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048153F3287D8EF000DE4D55 /* SourceTextViewController.swift */; };
 		048153F7287D9B9D00DE4D55 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048153F6287D9B9D00DE4D55 /* Language.swift */; };
+		048153F9287D9DE200DE4D55 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048153F8287D9DE200DE4D55 /* Bookmark.swift */; };
+		048153FB287D9F4F00DE4D55 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048153FA287D9F4F00DE4D55 /* UserDefaults+.swift */; };
+		04F969652885775C0082CCE9 /* BookmarkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F969642885775C0082CCE9 /* BookmarkListViewController.swift */; };
+		04F9696728857AAE0082CCE9 /* BookmarkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9696628857AAE0082CCE9 /* BookmarkCollectionViewCell.swift */; };
+		04F9696928857D9D0082CCE9 /* BookmarkTextStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9696828857D9D0082CCE9 /* BookmarkTextStackView.swift */; };
+		04F9696B2885816F0082CCE9 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9696A2885816F0082CCE9 /* Type.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		044996ED2874660A00456632 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		048153F3287D8EF000DE4D55 /* SourceTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTextViewController.swift; sourceTree = "<group>"; };
 		048153F6287D9B9D00DE4D55 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		048153F8287D9DE200DE4D55 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		048153FA287D9F4F00DE4D55 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
+		04F969642885775C0082CCE9 /* BookmarkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkListViewController.swift; sourceTree = "<group>"; };
+		04F9696628857AAE0082CCE9 /* BookmarkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCollectionViewCell.swift; sourceTree = "<group>"; };
+		04F9696828857D9D0082CCE9 /* BookmarkTextStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTextStackView.swift; sourceTree = "<group>"; };
+		04F9696A2885816F0082CCE9 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +80,12 @@
 			children = (
 				044996D028745EFE00456632 /* AppDelegate.swift */,
 				044996D228745EFE00456632 /* SceneDelegate.swift */,
-				044996ED2874660A00456632 /* UIColor+.swift */,
+				04F9696D288582730082CCE9 /* Modles */,
+				048153FC287D9F5300DE4D55 /* Extension */,
 				044996EA2874628F00456632 /* Scenes */,
 				044996D928745F0000456632 /* Assets.xcassets */,
 				044996DB28745F0000456632 /* LaunchScreen.storyboard */,
 				044996DE28745F0000456632 /* Info.plist */,
-				048153F6287D9B9D00DE4D55 /* Language.swift */,
 			);
 			path = Translate;
 			sourceTree = "<group>";
@@ -83,6 +95,7 @@
 			children = (
 				044996D428745EFE00456632 /* TabBarController.swift */,
 				048153F5287D8EF500DE4D55 /* Translate */,
+				04F9696C288582660082CCE9 /* Bookmark */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -94,6 +107,35 @@
 				048153F3287D8EF000DE4D55 /* SourceTextViewController.swift */,
 			);
 			path = Translate;
+			sourceTree = "<group>";
+		};
+		048153FC287D9F5300DE4D55 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				044996ED2874660A00456632 /* UIColor+.swift */,
+				048153FA287D9F4F00DE4D55 /* UserDefaults+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04F9696C288582660082CCE9 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				04F969642885775C0082CCE9 /* BookmarkListViewController.swift */,
+				04F9696628857AAE0082CCE9 /* BookmarkCollectionViewCell.swift */,
+				04F9696828857D9D0082CCE9 /* BookmarkTextStackView.swift */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		04F9696D288582730082CCE9 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				048153F6287D9B9D00DE4D55 /* Language.swift */,
+				048153F8287D9DE200DE4D55 /* Bookmark.swift */,
+				04F9696A2885816F0082CCE9 /* Type.swift */,
+			);
+			path = Modles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,12 +217,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				044996D528745EFE00456632 /* TabBarController.swift in Sources */,
+				048153FB287D9F4F00DE4D55 /* UserDefaults+.swift in Sources */,
 				044996EC2874629B00456632 /* TranslateViewController.swift in Sources */,
 				048153F4287D8EF000DE4D55 /* SourceTextViewController.swift in Sources */,
 				048153F7287D9B9D00DE4D55 /* Language.swift in Sources */,
 				044996D128745EFE00456632 /* AppDelegate.swift in Sources */,
 				044996D328745EFE00456632 /* SceneDelegate.swift in Sources */,
+				04F9696B2885816F0082CCE9 /* Type.swift in Sources */,
 				044996EE2874660A00456632 /* UIColor+.swift in Sources */,
+				04F969652885775C0082CCE9 /* BookmarkListViewController.swift in Sources */,
+				048153F9287D9DE200DE4D55 /* Bookmark.swift in Sources */,
+				04F9696928857D9D0082CCE9 /* BookmarkTextStackView.swift in Sources */,
+				04F9696728857AAE0082CCE9 /* BookmarkCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
